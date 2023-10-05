@@ -38,6 +38,7 @@ function App() {
     formData.append('darkMode', darkMode)
 
     setConversationNames((await axios.post("http://localhost:5000/convos/upload", formData)).data.conversationNames)
+    console.log('success')
     setStatus(STATUS.SUCCESS)
   }
 
