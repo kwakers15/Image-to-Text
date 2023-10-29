@@ -46,11 +46,11 @@ function App() {
     // create dismissible status bar here
     switch (status) {
       case STATUS.SUCCESS:
-        return 'Success!'
+        return 'Success'
       case STATUS.DUPLICATE:
-        return 'This conversation name already exists!'
+        return 'This conversation name already exists'
       case STATUS.EMPTY:
-        return 'One or more fields are empty!'
+        return 'One or more fields are empty'
       default:
         return null
     }
